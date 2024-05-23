@@ -45,6 +45,18 @@
         margin: 8px;
     }
 
+    .box .nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box .nav li a:hover{
+        transition:  0.3s;
+        color: black;
+        background-color: rgba(240, 248, 255, 0.667);
+    }
+
+
 
     div.box {
         border-radius: 24px;
