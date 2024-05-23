@@ -32,6 +32,10 @@ ini_set('display_errors', 0);
                 <a href="classes\javascript-class.php">JavaScript (em andamento)</a>
             </li>
 
+            <li>
+                <a href="classes\Git-class.php">Github & GIT (em andamento)</a>
+            </li>
+
         </ul>
       
     </div> 
