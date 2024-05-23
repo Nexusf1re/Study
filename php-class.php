@@ -19,7 +19,7 @@ ini_set('display_errors', 0);
 <body>
 <h2> <a style="background-color: transparent; padding: 0px;" href="index.php"><img style="width: 360px;" src="css/img/ABREUS - Upscale w logo.png" alt=""></a></h2></header>
     <div class="box">
-        <a href="index.php" style="color:red; margin-bottom: -20px;font-size:12px; width:fit-content;">Voltar</a>
+        <a id="back" href="index.php">Voltar</a>
         <p class="title">Aulas W3</p>
         <br>
         <ul class="nav">

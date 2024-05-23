@@ -18,7 +18,7 @@ ini_set('display_errors', 0);
 
 <body>
 <header>
-<h2> <a style="background-color: transparent; padding: 0px;" href="index.php"><img style="width: 360px;" src="css/img/ABREUS - Upscale w logo.png" alt=""></a></h2></header>
+<h2> <a style="background-color: transparent; padding: 0px;" href="index.php"><img src="css/img/ABREUS - Upscale w logo.png" alt=""></a></h2></header>
 <div class="box">
 
         <p class="title">Linguagens</p>

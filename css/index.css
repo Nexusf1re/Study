@@ -1,27 +1,19 @@
-    @media screen and (max-width: 730px) {
+    /*Dispositivos Mobile*/
+    @media screen and (max-width: 599px) {
         * {
             font-size: 15px;
         }
+        a{
+            font-size: 4vw !important;
+        }
 
-    }
-
-    @media screen and (min-width: 729px) {
-        * {
-            font-size: 25px;
+        img{
+            max-width: 240px !important;
+            width: 100%;
         }
 
     }
 
-    @media screen and (max-width: 379px) {
-        * {
-            font-size: 12px;
-        }
-
-        ul li {
-            margin-right: 1.5px !important;
-        }
-
-    }
 
     body {
         background-color: rgba(0, 0, 0, 0.833);
@@ -30,6 +22,15 @@
     html {
         font-family: 'Jetbrains mono';
 
+    }
+
+    #back{
+        color:red; 
+        margin-bottom: -30px;
+        margin-top: 2px;
+        margin-left: 5px;
+        font-size:1.2vw;
+        width:fit-content;
     }
 
     h2 {
@@ -65,7 +66,7 @@
         background-color: rgb(150, 150, 150);
         justify-content: center;
         text-align: center;
-        font-size: 35px;
+        font-size: 30px;
         display: flex;
         flex-direction: column;
         width: fit-content;
@@ -93,7 +94,7 @@
     }
 
     a {
-        font-size: 1em;
+        font-size: 2vw;
         list-style: none;
         text-decoration: none;
         font-weight: bold;
@@ -116,6 +117,8 @@
     img{
         filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.39));
         transition: ease-in-out 0.3s;
+        max-width: 360px;
+        width: 100%;
     }
 
     img:hover{
