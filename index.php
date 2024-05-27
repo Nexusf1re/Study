@@ -11,7 +11,7 @@ ini_set('display_errors', 0);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
     <link rel="icon" href="css/img/ABREUS - Upscale w logo1.png">
-    <link href='css/index.css' rel='stylesheet'>
+    <link href='css/index.css?v=1.1' rel='stylesheet'>
     <title>Estudo</title>
 
 </head>
