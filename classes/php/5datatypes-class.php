@@ -1,6 +1,9 @@
-<?php
+<?php 
 error_reporting(0);
 ini_set('display_errors', 0);
+
+include('../../config.php');
+
 ?>
 
 <!DOCTYPE html>
@@ -10,8 +13,8 @@ ini_set('display_errors', 0);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
-    <link href="../css/style-classes.css" rel="stylesheet">
-    <link rel="icon" href="../css/img/ABREUS - Upscale w logo1.png">
+    <link rel="icon" href="../../css/img/ABREUS - Upscale w logo1.png">
+    <link href="../../css/style-classes.css" rel="stylesheet">
     <title>Data Types</title>
 </head>
 
@@ -22,7 +25,7 @@ $guide = '<p>Execução código PHP ↓</p>';
 <body>
 
     <div class="main">
-        <a href="../php-class.php" style="color:red">Voltar</a>
+    <?php echo $voltar;?>
 
         <h3 style="color: brown;">Para revisar o estudo é necessário acompanhar o código fonte juntamente com a página php</h3>
         <hr>
@@ -71,7 +74,7 @@ $guide = '<p>Execução código PHP ↓</p>';
 
             <div class="example0">
 
-                <img src="../css/img/example5.png" alt="example5">
+                <img src="../../css/img/example5.png" alt="example5">
 
             </div>
             <p>Execução código PHP ↓</p>
@@ -159,7 +162,7 @@ $guide = '<p>Execução código PHP ↓</p>';
         <div class="example">
             <h3>Exemplo</h3>
             <div class="example0">
-                <img src="../css/img/example5-1.png" alt="">
+                <img src="../../css/img/example5-1.png" alt="">
             </div>
             <p>Execução código PHP ↓</p>
             <div class="example0">
@@ -187,7 +190,7 @@ $guide = '<p>Execução código PHP ↓</p>';
 
         <div class="example">
             <h3>Exemplo</h3>
-            <img src="../css/img/example5-2.png" alt="example5-2">
+            <img src="../../css/img/example5-2.png" alt="example5-2">
             <p>Execução código PHP ↓</p>
             <div class="example0">
                 <?php
@@ -221,7 +224,7 @@ $guide = '<p>Execução código PHP ↓</p>';
         <div class="example">
             <h3>Exemplo</h3>
             <div class="example0">
-                <img src="../css/img/example5-3.png" alt="example5-3">
+                <img src="../../css/img/example5-3.png" alt="example5-3">
             </div>
              <?php echo $guide;?>
             <div class="example0"><?php 
@@ -238,7 +241,7 @@ $guide = '<p>Execução código PHP ↓</p>';
         <div class="example">
             <h3>Exemplo</h3>
             <div class="example0">
-                <img src="../css/img/example5-4.png" alt="example5-4">
+                <img src="../../css/img/example5-4.png" alt="example5-4">
             </div>
             <?php echo $guide;?>
             <div class="example0">
@@ -256,7 +259,7 @@ $guide = '<p>Execução código PHP ↓</p>';
                 <div class="example">
                     <h3>Exemplo</h3>
                     <div class="example0">
-                        <img src="../css/img/example5-5.png" alt="example5-5">
+                        <img src="../../css/img/example5-5.png" alt="example5-5">
                     </div>
                     <?php echo $guide;?>
                     <div class="example0">

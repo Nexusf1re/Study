@@ -1,5 +1,10 @@
-<?php error_reporting(0);
-ini_set('display_errors', 0);?>
+<?php 
+error_reporting(0);
+ini_set('display_errors', 0);
+
+include('../../config.php');
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -13,7 +18,7 @@ ini_set('display_errors', 0);?>
 
 <body>
     <div class="main">
-    <a href="../php-class.php" style="color:red">Voltar</a>
+    <?php echo $voltar;?>
     <h3 style="color: brown">Para revisar o estudo é necessário acompanhar o código fonte juntamente com a página php</h3>
     
 

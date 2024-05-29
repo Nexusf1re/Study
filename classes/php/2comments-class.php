@@ -1,3 +1,10 @@
+<?php 
+error_reporting(0);
+ini_set('display_errors', 0);
+
+include('../../config.php');
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -5,15 +12,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
-    <link href="../css/style-classes.css" rel="stylesheet">
-    <link rel="icon" href="../css/img/ABREUS - Upscale w logo1.png">
+    <link rel="icon" href="../../css/img/ABREUS - Upscale w logo1.png">
+    <link href="../../css/style-classes.css" rel="stylesheet">
     <title>Comments</title>
 </head>
 
 <body>
     
     <div class="main">
-    <a href="../php-class.php" style="color:red">Voltar</a>
+    <?php echo $voltar;?>
     <h3 style="color: brown">Para revisar o estudo é necessário acompanhar o código fonte juntamente com a página php</h3>
         <h3>Comments Class</h3>
         <p>Um comentário no código PHP é uma linha que não é executada como parte do programa. O Único propósito é para ser lido por alguém no qual está olhando o código do programa</p>

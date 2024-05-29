@@ -1,6 +1,9 @@
 <?php 
-error_reporting(0); 
-ini_set('display_errors', 0); 
+error_reporting(0);
+ini_set('display_errors', 0);
+
+include('../../config.php');
+
 ?>
 
 <!DOCTYPE html>
@@ -10,8 +13,8 @@ ini_set('display_errors', 0);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
-    <link href="../css/style-classes.css" rel="stylesheet">
-    <link rel="icon" href="../css/img/ABREUS - Upscale w logo1.png">
+    <link rel="icon" href="../../css/img/ABREUS - Upscale w logo1.png">
+    <link href="../../css/style-classes.css" rel="stylesheet">
     <title>Variables</title>
 </head>
 
@@ -20,7 +23,7 @@ ini_set('display_errors', 0);
 <body>
 
     <div class="main">
-        <a href="../php-class.php" style="color:red">Voltar</a>
+    <?php echo $voltar;?>
 
         <h3 style="color: brown;">Para revisar o estudo é necessário acompanhar o código fonte juntamente com a página php</h3>
         <hr>
@@ -42,7 +45,7 @@ ini_set('display_errors', 0);
         <p>O exemplo a seguir mostra como gerar texto com o comando <span class="var">echo</span> (note que o texto pode conter marcação HTML):</p>
         <div class="example">
             <h3>Exemplo</h3>
-        <img src="../css/img/example1.png" alt="example1">
+        <img src="../../css/img/example1.png" alt="example1">
         <p>Execução código PHP ↓</p>
 
         <div class="example0"><?php 
@@ -57,7 +60,7 @@ ini_set('display_errors', 0);
         <p>O exemplo a seguir mostra como gerar saída de texto e varáveis com a instrução <span class="var">echo</span>.</p>
         <div class="example">
             <h3>Exemplo</h3>
-            <img src="../css/img/example2-3.png" alt="example2-3">
+            <img src="../../css/img/example2-3.png" alt="example2-3">
             <p>Execução código PHP ↓</p>
             <div class="example0">
         <?php 
