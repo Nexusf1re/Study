@@ -24,25 +24,25 @@ ini_set('display_errors', 0);
         <br>
         <ul class="nav">
           
-            <li><a href="classes\1syntax-class.php">Syntax Class</a></li>
+            <li><a href="classes\php\1syntax-class.php">Syntax Class</a></li>
              
-            <li><a href="classes\2comments-class.php">Comments Class</a></li>
+            <li><a href="classes\php\2comments-class.php">Comments Class</a></li>
             
-            <li> <a href="classes\3variables-class.php">Variables Class</a></li>
+            <li> <a href="classes\php\3variables-class.php">Variables Class</a></li>
             
-            <li><a href="classes\4echoprints-class.php">Echo / Print</a></li>
+            <li><a href="classes\php\4echoprints-class.php">Echo / Print</a></li>
 
-            <li><a href="classes/5datatypes-class.php">Data Types</a></li>
+            <li><a href="classes\php\5datatypes-class.php">Data Types</a></li>
 
-            <li><a href="classes/6string-class.php">Strings</a></li>
+            <li><a href="classes\php\6string-class.php">Strings</a></li>
 
             
 
-            <li><a href="classes/10constants-class.php">Constants</a></li>
+            <li><a href="classes\php\10constants-class.php">Constants</a></li>
 
-            <li><a href="classes/11magicconstants-class.php">Magic Constants</a></li>
+            <li><a href="classes\php\11magicconstants-class.php">Magic Constants</a></li>
 
-            <li><a href="classes/12operators-class.php">Operators</a></li>
+            <li><a href="classes\php\12operators-class.php">Operators</a></li>
 
         </ul>
 
@@ -53,13 +53,13 @@ ini_set('display_errors', 0);
         <br>
         <ul class="nav">
             <li>
-                <a href="exercices\Exercise-1-Sintaxe.php">Exercício Sintaxe W3</a>
+                <a href="exercices\php\Exercise-1-Sintaxe.php">Exercício Sintaxe W3</a>
             </li>
             <li>
-                <a href="exercices\Exercise-2-Variable.php">Exercício Variable W3</a>
+                <a href="exercices\php\Exercise-2-Variable.php">Exercício Variable W3</a>
             </li>
             <li>
-                <a href="exercices\Exercise-3-Strings.php">Exercício Strings W3</a>
+                <a href="exercices\php\Exercise-3-Strings.php">Exercício Strings W3</a>
             </li>
         </ul>
 

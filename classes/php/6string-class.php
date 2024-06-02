@@ -1,5 +1,8 @@
 <?php error_reporting(0);
 ini_set('display_errors', 0);
+
+include('../../config.php');
+
 $guide = '<p>Execução código PHP ↓</p>';
 ?>
 <!DOCTYPE html>
@@ -9,14 +12,14 @@ $guide = '<p>Execução código PHP ↓</p>';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
-    <link href="../css/style-classes.css" rel="stylesheet">
-    <link rel="icon" href="../css/img/ABREUS - Upscale w logo1.png">
+    <link rel="icon" href="../../css/img/ABREUS - Upscale w logo1.png">
+    <link href="../../css/style-classes.css" rel="stylesheet">
     <title>STRINGS</title>
 </head>
 
 <body>
     <div class="main">
-        <a href="../php-class.php" style="color:red">Voltar</a>
+    <?php echo $voltar;?>
         <h3 style="color: brown;">Para revisar o estudo é necessário acompanhar o código fonte juntamente com a página php</h3>
         <hr>
 
@@ -293,7 +296,7 @@ $guide = '<p>Execução código PHP ↓</p>';
             <h3>Exemplo</h3>
             <p>Separar a string em array. Use o caracter espaço como separador:</p>
             <div class="example0">
-                <img src="../css/img/example5-7.png" alt="example5-7">
+                <img src="../../css/img/example5-7.png" alt="example5-7">
             </div>
             <?php echo $guide;?>
             <div class="example0">

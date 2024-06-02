@@ -1,13 +1,18 @@
-<?php error_reporting(0);
-ini_set('display_errors', 0);?>
+<?php 
+error_reporting(0);
+ini_set('display_errors', 0);
+
+include('../../config.php');
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
-    <link href="../css/style-classes.css" rel="stylesheet">
-    <link rel="icon" href="../css/img/ABREUS - Upscale w logo1.png">
+    <link rel="icon" href="../../css/img/ABREUS - Upscale w logo1.png">
+    <link href="../../css/style-classes.css" rel="stylesheet">
     <title>Constants</title>
 </head>
 
@@ -18,7 +23,7 @@ define("sub", "<h3>Exemplo</h3>");
 
 <body>
     <div class="main">
-    <a href="../php-class.php" style="color:red">Voltar</a>
+    <?php echo $voltar;?>
     <h3 style="color: brown">Para revisar o estudo é necessário acompanhar o código fonte juntamente com a página php</h3>
 
     <h1>PHP Constants</h1>
@@ -114,7 +119,7 @@ define("sub", "<h3>Exemplo</h3>");
             <?php echo sub;?>
             <p>Crie uma constante de aranjo: </p>
             <div class="example0">
-                <img src="../css/img/example5-8.png" alt="example5-8">
+                <img src="../../css/img/example5-8.png" alt="example5-8">
             </div>
             <?php  echo guia;?>
             <div class="example0">
@@ -135,7 +140,7 @@ define("sub", "<h3>Exemplo</h3>");
                 <p>Esse exemplo usa a constante dentro da função, mesmo se estiver definido fora da função:</p>
                 
                 <div class="example0">
-                <img src="../css/img/example5-9.png" alt="example5-9">
+                <img src="../../css/img/example5-9.png" alt="example5-9">
                 </div>
                 <?php echo guia;?>
                 <div class="example0">
