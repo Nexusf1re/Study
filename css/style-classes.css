@@ -168,6 +168,24 @@ table, th, td, tr{
     text-decoration: none;
 }
 
+.exemplo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    background-color:white!important; 
+    border-radius:5px;
+    margin: 0;
+    padding: 5px;
+
+}
+
+.ex{
+    flex-grow: 1;
+}
+
+
+
 
 
 
