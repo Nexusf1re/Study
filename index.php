@@ -29,7 +29,7 @@ ini_set('display_errors', 0);
             </li>
 
             <li>
-                <a href="#">JavaScript (em andamento)</a>
+                <a href="js-class.php">JavaScript (em andamento)</a>
             </li>
 
             <li>
