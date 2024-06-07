@@ -8,11 +8,11 @@ include('C:/xampp/htdocs/Study/config.php');
 <html lang="pt-br">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
-<link href="../../css/style-classes.css" rel="stylesheet">
-<link rel="icon" href="../../css/img/ABREUS - Upscale w logo1.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+    <link href="../../css/style-classes.css" rel="stylesheet">
+    <link rel="icon" href="../../css/img/ABREUS - Upscale w logo1.png">
 <title>Introdução Javascript</title>
 </head>
 
@@ -165,7 +165,6 @@ include('C:/xampp/htdocs/Study/config.php');
         btn1.onclick = function() {
             tip.style.display = "none";
         }
-
     </script>
 
 </div>

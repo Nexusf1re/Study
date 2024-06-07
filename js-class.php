@@ -26,6 +26,8 @@ ini_set('display_errors', 0);
           
             <li><a href="classes/js/1-introduction.php">Introdução Javascript</a></li>
 
+            <li><a href="classes/js/2-whereto.php">Onde fazer JS</a></li>
+
         </ul>
 
     </div>
