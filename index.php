@@ -29,11 +29,11 @@ ini_set('display_errors', 0);
             </li>
 
             <li>
-                <a href="#">JavaScript (em andamento)</a>
+                <a href="js-class.php">JavaScript (em andamento)</a>
             </li>
 
             <li>
-                <a href="#">Github & GIT (em andamento)</a>
+                <a href="git-class.php">Github & GIT (em andamento)</a>
             </li>
 
         </ul>

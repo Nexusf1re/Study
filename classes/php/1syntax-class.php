@@ -1,9 +1,7 @@
 <?php 
 error_reporting(0);
 ini_set('display_errors', 0);
-
-include('../../config.php');
-
+include('C:/xampp/htdocs/Study/config.php');
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -18,7 +16,9 @@ include('../../config.php');
 
 <body>
     <div class="main">
-     <?php echo $voltar;?>
+     <?php
+      echo $voltar;
+     ?>
         <h3 style="color: brown">Para revisar o estudo é necessário acompanhar o código fonte juntamente com a página php</h3>
         <h3>Comments class</h3>
 
