@@ -50,28 +50,90 @@ Essas informações serão usadas quando você fizer um commit
 <br>
 <div  class="example">
     <h3>Lista de comandos básicos mais utilizados ao trabalhar com versionamento em Git</h3>
-    <ul>
-        <li><span style="cursor: pointer; font-weight: bold;" onclick="document.getElementById('ex').focus();" class="var">git config: </span>Este é o primeiro comando a ser executado após instalar o Git. Ele possibilita configurar seu nome e endereço de email que ficará vinculado às alterações.</li>
+    <ul style="margin-top: 5px;">
+        <li><span style="cursor: pointer; font-weight: bold;" onclick="document.getElementById('ex').focus();" class="var">git config: </span>Este é o primeiro comando a ser executado após instalar o Git. Ele possibilita configurar seu nome e endereço de email que ficará vinculado às alterações.
+        <li class="innerLi">
+        $ git config --global user.name "Nome do usuário"
+        </li>
+        <li class="innerLi">
+        $ git config --global user.email "seu@email.com"
+        </li>
+    </li>
 
-        <li><span class="var">git init:</span> Inicia ou cria um repositório</li>
+        <li><span class="var">git init:</span> Inicia ou cria um repositório
+        <li class="innerLi">
+            $ git init
+        </li>
+      </li>
 
-        <li><span class="var">git status: </span>Permite visualizar o estado do repositório.</li>
+        <li><span class="var">git status: </span>Permite visualizar o estado do repositório.
+        <li class="innerLi">
+            $ git status
+        </li>
+        </li>
 
-        <li><span class="var">git add: </span>Prepara o conteúdo para o próximo commit</li>
+        <li><span class="var">git add: </span>Prepara o conteúdo para o próximo commit
+        <li class="innerLi">
+            $git add . ("adiciona todos arquivos da pasta")
+        </li>
+        <li class="innerLi">
+            $git add nome_do_arquivo
+        </li>
+        </li>
 
-        <li><span class="var">git commit:</span> Salva o conteúdo atual junto com uma mensagem de registro do usuário que descreve as alterações.</li>
+        <li><span class="var">git commit:</span> Salva o conteúdo atual junto com uma mensagem de registro do usuário que descreve as alterações.
+        <li class="innerLi">
+            $ git commit -m "Mensagem descritiva do commit"
+        </li>
+        </li>
         
-        <li><span class="var">git clone:</span> Clona um repositório existente</li>
+        <li><span class="var">git clone:</span> Clona um repositório existente
+        <li class="innerLi">
+            $ git clone [url]
+        </li>
+        </li>
 
-        <li><span class="var">git branch:</span>  Uma branch nada mais é do que uma ramificação dentro do repositório. Este comando pode ser utilizado de diversas maneiras.</li>
+        <li><span class="var">git branch:</span>  Uma branch nada mais é do que uma ramificação dentro do repositório. Este comando pode ser utilizado de diversas maneiras.
+        <li class="innerLi">
+            $  git branch // Mostra as branches existentes em um repositório
+        </li>
+        <li class="innerLi">
+            $  git branch nome_da_branch // Cria uma nova branch
+        </li>
+        <li class="innerLi">
+           $ git branch -M nome_da_branch // Renomeia a branch atual
+        </li>
+        </li>
 
-        <li><span class="var">git log:</span> Exibe um histórico de commits. Este comando pode ser utilizado de diversas formas.</li>
+        <li><span class="var">git log:</span> Exibe um histórico de commits. Este comando pode ser utilizado de diversas formas.
+        <li class="innerLi">
+            $ git log
+        </li>
+        <li class="innerLi">
+            $ git log --oneline
+        </li>
+        </li>
 
-        <li><span class="var">git remote:</span> Exibe o repositório remoto.</li>
+        <li><span class="var">git remote:</span> Exibe o repositório remoto.
+        <li class="innerLi">
+            $ git remote
+        </li>
+        <li class="innerLi">
+            $ git remote -v
+        </li>
+        </li>
 
-        <li><span class="var">git pull:</span> Baixa o conteúdo do repositório remoto, atualizando automaticamente o repositório local.</li>
+        <li><span class="var">git pull:</span> Baixa o conteúdo do repositório remoto, atualizando automaticamente o repositório local.
+        <li class="innerLi">
+            $ git pull
+        </li>
+        </li>
 
-        <li><span class="var">git push:</span>  Envia o conteúdo do repositório local, atualizando automaticamente o repositório remoto.</li>
+        <li><span class="var">git push:</span>  Envia o conteúdo do repositório local, atualizando automaticamente o repositório remoto.
+        <li class="innerLi">
+            $ git push
+        </li>
+        </li>
     </ul>
   
 

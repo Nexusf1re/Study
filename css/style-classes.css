@@ -113,7 +113,7 @@
 }
 
 ul{
-    line-height: 200%;
+    line-height: 250%;
     
 }
 
@@ -221,4 +221,9 @@ table, th, td, tr{
 
 #tip{
     display: none;
+}
+
+.innerLi{
+    margin-left: 5px;
+    list-style: circle;
 }
