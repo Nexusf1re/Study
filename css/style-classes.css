@@ -121,6 +121,12 @@ li{
     margin-left: -20px;
 }
 
+.innerLi{
+    margin-left: 5px;
+    list-style: circle;
+    margin-top: -10px;
+}
+
 a{
     color: black;
 }
@@ -223,7 +229,3 @@ table, th, td, tr{
     display: none;
 }
 
-.innerLi{
-    margin-left: 5px;
-    list-style: circle;
-}
