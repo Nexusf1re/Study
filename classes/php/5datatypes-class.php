@@ -2,7 +2,7 @@
 error_reporting(0);
 ini_set('display_errors', 0);
 
-include('C:/xampp/htdocs/Study/config.php');
+include(__DIR__.'../../../back.php');
 
 ?>
 
