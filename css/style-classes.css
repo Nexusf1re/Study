@@ -113,12 +113,18 @@
 }
 
 ul{
-    line-height: 200%;
+    line-height: 250%;
     
 }
 
 li{
     margin-left: -20px;
+}
+
+.innerLi{
+    margin-left: 5px;
+    list-style: circle;
+    margin-top: -10px;
 }
 
 a{
@@ -222,3 +228,4 @@ table, th, td, tr{
 #tip{
     display: none;
 }
+
