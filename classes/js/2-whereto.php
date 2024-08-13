@@ -2,7 +2,7 @@
 error_reporting(0);
 ini_set('display_errors', 0);
 
-include('C:/xampp/htdocs/Study/config.php');
+include(__DIR__.'../../../back.php');
 
 ?>
 <!DOCTYPE html>
@@ -27,11 +27,16 @@ include('C:/xampp/htdocs/Study/config.php');
         <p>No HTML, o código JavaScript é inserido entre as tags. <span class="var"> &ltscript&gt &lt/script&gt</span></p>
         <div class="example">
             <h3>Exemplo</h3>
+<<<<<<< HEAD
             <a onclick="document.getElementById('ex').style.display = 'block';" id="bt" style="cursor: pointer;">Mostrar Exemplo</a>
+=======
+            <a onclick="document.getElementById('ex').style.display = 'block';" style="cursor: pointer;">Mostrar Exemplo</a>
+>>>>>>> main
             <img id="ex" style="display: none;" src="../../css/img/example6.3.png" alt="">
 
         </div>
 
+<<<<<<< HEAD
 
         <style>
             .li-pointer li {
@@ -72,6 +77,30 @@ include('C:/xampp/htdocs/Study/config.php');
 
         </div>
     </div>
+=======
+        <div>
+        <script>
+            document.write("<h1> Teste JS </JS> <br>")
+
+            const car = {model: "Kia", 
+                        color: "Prata",
+                        year: 2011, 
+                        yearmodel: 2012,
+                        info: function(){
+                        return "Carro do modelo " + this.model + ", identificado na cor: " +this.color
+            }
+        };
+            car.model = "Toyota";
+            car.color = "Vermelho";
+
+            document.write(car.model +"<br><br>");
+            document.write (car.info());
+
+
+        </script>
+        
+        </div>
+>>>>>>> main
 </body>
 
 </html>
